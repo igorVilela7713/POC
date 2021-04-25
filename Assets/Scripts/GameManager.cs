@@ -6,9 +6,11 @@ public class GameManager : MonoBehaviour{
 
     public static GameManager ins;
     public IVCanvas ivCanvas;
+    public InventotyDisplay invDisplay;
 
   //  [HideInInspector]
     public Node currentNode;
+    public Item itemHeld;
 
     public CameraRing rig;
 
