@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour{
 
   //  [HideInInspector]
     public Node currentNode;
-    public Item itemHeld;
+    public Item2 itemHeld;
 
     public CameraRing rig;
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Collector : Interactable{
 
-  public Item myItem;
+  public Item2 myItem;
 
   public override void Interact(){
     GameManager.ins.itemHeld = myItem;
