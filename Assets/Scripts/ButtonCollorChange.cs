@@ -41,4 +41,9 @@ public class ButtonCollorChange : MonoBehaviour{
          button.GetComponent<Image>().color = Color.white;
          button.colors = colors;
      }
+
+     public bool isClieck(){
+       return clicked;
+
+     }
 }
