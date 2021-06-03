@@ -7,6 +7,7 @@ public class ButtonCollorChange : MonoBehaviour{
 
   public Button button;
   private bool clicked = true;
+  public bool required = false;
 
   void Start () {
     Button btn = button.GetComponent<Button>();

@@ -147,8 +147,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraPosition: {fileID: 338201057}
   reachableNodes: []
+  cursorArrow: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}
+  cursorInteract: {fileID: 2800000, guid: fe2443101ded6f544b32f8dc8690c367, type: 3}
   col: {fileID: 0}
   loc: {fileID: 470936114}
+--- !u!114 &11303791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11303786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e208ee0d6f4a5b04e84c55c7ce0ac09c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &11303792
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -276,6 +290,8 @@ MonoBehaviour:
   cameraPosition: {fileID: 2081108081}
   reachableNodes:
   - {fileID: 1158729890}
+  cursorArrow: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}
+  cursorInteract: {fileID: 2800000, guid: fe2443101ded6f544b32f8dc8690c367, type: 3}
   col: {fileID: 0}
   loc: {fileID: 470936114}
 --- !u!1 &157587193
@@ -504,6 +520,8 @@ MonoBehaviour:
   - {fileID: 153305202}
   - {fileID: 1158729890}
   - {fileID: 11303788}
+  cursorArrow: {fileID: 0}
+  cursorInteract: {fileID: 0}
   col: {fileID: 0}
 --- !u!65 &470936115
 BoxCollider:
@@ -952,6 +970,10 @@ PrefabInstance:
     - target: {fileID: 4976941838240740532, guid: eb16cd9dd0dcc174a8f5afd4c73a1919, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718515170090454727, guid: eb16cd9dd0dcc174a8f5afd4c73a1919, type: 3}
+      propertyPath: m_Name
+      value: Armario
       objectReference: {fileID: 0}
     - target: {fileID: 5718515170090454741, guid: eb16cd9dd0dcc174a8f5afd4c73a1919, type: 3}
       propertyPath: m_NavMeshLayer
@@ -1899,6 +1921,8 @@ MonoBehaviour:
   cameraPosition: {fileID: 1771537155}
   reachableNodes:
   - {fileID: 0}
+  cursorArrow: {fileID: 0}
+  cursorInteract: {fileID: 0}
   col: {fileID: 0}
   loc: {fileID: 470936114}
 --- !u!135 &907466319
@@ -2412,6 +2436,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraPosition: {fileID: 636529895}
   reachableNodes: []
+  cursorArrow: {fileID: 0}
+  cursorInteract: {fileID: 0}
   col: {fileID: 0}
   loc: {fileID: 470936114}
 --- !u!136 &1158729892
@@ -3549,6 +3575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pic: {fileID: 0}
+  yourButton: {fileID: 0}
 --- !u!114 &1988105802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3563,6 +3590,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraPosition: {fileID: 0}
   reachableNodes: []
+  cursorArrow: {fileID: 0}
+  cursorInteract: {fileID: 0}
   col: {fileID: 0}
   loc: {fileID: 470936114}
 --- !u!1 &2081108080

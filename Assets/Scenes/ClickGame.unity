@@ -333,6 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 98817798}
+  required: 0
 --- !u!1 &168677696
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 168677698}
+  required: 1
 --- !u!1 &244806023
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,7 +677,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 80691ce93a5964a4a87217478bbdc52f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73098f75678f89240941ddd375deef46, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -828,6 +830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 488036355}
+  required: 1
 --- !u!1 &496391464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,7 +1272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 80691ce93a5964a4a87217478bbdc52f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5f5bd1f7263a52a4c89e85e32c75e4d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1497,6 +1500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 888033457}
+  required: 0
 --- !u!1 &907308150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +1636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 907308152}
+  required: 0
 --- !u!1 &912343302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,6 +1772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 912343304}
+  required: 0
 --- !u!1 &939279550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,6 +2000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 990148926}
+  required: 0
 --- !u!1 &1015457502
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,6 +2257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1028438062}
+  required: 0
 --- !u!1 &1103134501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1178313859}
+  required: 1
 --- !u!1 &1193275708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,6 +2678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1193275710}
+  required: 1
 --- !u!1 &1271924134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,6 +2972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1440881141}
+  required: 0
 --- !u!1 &1475210498
 GameObject:
   m_ObjectHideFlags: 0
@@ -3019,7 +3030,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 80691ce93a5964a4a87217478bbdc52f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d11c999847d0e33479a87f9c94436bc9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3172,6 +3183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1502210870}
+  required: 0
 --- !u!1 &1683301149
 GameObject:
   m_ObjectHideFlags: 0
@@ -3304,7 +3316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 80691ce93a5964a4a87217478bbdc52f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 680bf84bae8deeb46a664f21571419b4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3739,6 +3751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 2008164523}
+  required: 1
 --- !u!1 &2046718111
 GameObject:
   m_ObjectHideFlags: 0
@@ -3874,6 +3887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 2046718113}
+  required: 0
 --- !u!1 &2064850969
 GameObject:
   m_ObjectHideFlags: 0
@@ -4009,6 +4023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 2064850971}
+  required: 1
 --- !u!1 &2118005084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4144,6 +4159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 2118005086}
+  required: 1
 --- !u!1001 &7772304413202977455
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class Prop : Node{
 
   void Awake(){
     inter = GetComponent<Interactable>();
+
   }
 
   public override void Arrive(){
@@ -16,15 +17,14 @@ public class Prop : Node{
     if (inter != null && inter.enabled) {
       inter.Interact();
       return;
-
     }
 
     base.Arrive();
 
     if (inter != null) {
-      col.enabled = true;
-      inter.enabled = true;
-
+    //  col.enabled = true;
+  //    inter.enabled = true;
+      inter.Interact();
     }
 
   }

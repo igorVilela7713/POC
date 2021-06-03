@@ -16,7 +16,7 @@ public class ClickGame : MonoBehaviour{
     void Update(){
 
       foreach (ButtonCollorChange btn in buttons) {
-        if (!btn.isClieck()) {
+        if (!btn.isClieck() && btn.required) {
           count++;
         }
       }

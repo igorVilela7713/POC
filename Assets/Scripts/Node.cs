@@ -7,6 +7,8 @@ public abstract class Node : MonoBehaviour{
 
     public Transform cameraPosition;
     public List<Node> reachableNodes = new List<Node>();
+    public Texture2D cursorArrow;
+    public Texture2D cursorInteract;
 
     [HideInInspector]
     public Collider col;
@@ -31,9 +33,9 @@ public abstract class Node : MonoBehaviour{
 
       GameManager.ins.currentNode = this;
 
-      Sequence seq = DOTween.Sequence();
-      seq.Append(Camera.main.transform.DOMove(cameraPosition.position, 0.75f));
-      seq.Join(Camera.main.transform.DORotate(cameraPosition.rotation.eulerAngles, 0.75f));
+    //  Sequence seq = DOTween.Sequence();
+    //  seq.Append(Camera.main.transform.DOMove(cameraPosition.position, 0.75f));
+    //  seq.Join(Camera.main.transform.DORotate(cameraPosition.rotation.eulerAngles, 0.75f));
       //GameManager.ins.rig.AlingTo(cameraPosition);
 
       if (col != null) {
@@ -55,6 +57,14 @@ public abstract class Node : MonoBehaviour{
           node.col.enabled = set;
         }
       }
+    }
+
+    void OnMouseEnter(){
+      Cursor.SetCursor(cursorInteract, Vector2.zero, CursorMode.ForceSoftware);
+    }
+
+    void OnMouseExit(){
+      Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
     }
 
 

@@ -8,7 +8,7 @@ using UnityEngine;
 
   void Start ()
   {
-      InvokeRepeating("TongueOut", 15f, 1f);
+      InvokeRepeating("TongueOut", 3f, 1f);
   }
 
   void TongueOut ()

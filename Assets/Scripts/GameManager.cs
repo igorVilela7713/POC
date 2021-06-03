@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour{
     public static GameManager ins;
     public IVCanvas ivCanvas;
     public InventotyDisplay invDisplay;
+    public Texture2D cursorArrow;
 
   //  [HideInInspector]
     public Node currentNode;
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour{
     void  Awake(){
       ins = this;
       ivCanvas.gameObject.SetActive(false);
+      Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
     }
 
     void Update(){
