@@ -8,6 +8,14 @@ public class GameManager : MonoBehaviour{
     public IVCanvas ivCanvas;
     public InventotyDisplay invDisplay;
     public Texture2D cursorArrow;
+    public bool ter_maos_limpas;
+    public bool ter_identificado_paciente;
+    public bool ter_identificado_necessidade_troca_acesso;
+    public bool ter_acessado_prontuario;
+    public bool ter_selecionado_materiais;
+    public bool ter_retirado_acesso_anterior;
+    public bool ter_realizado_novo_acesso;
+    public bool ter_descartado_materiais;
 
   //  [HideInInspector]
     public Node currentNode;
