@@ -28,9 +28,9 @@ public class ButtonCollorChange : MonoBehaviour{
   public void TurnRed()
      {
          ColorBlock colors = button.colors;
-         colors.normalColor = Color.green;
-         colors.highlightedColor = new Color32(100, 255, 100, 255);
-         button.GetComponent<Image>().color = Color.green;
+         colors.normalColor = new Color32(112, 184, 94, 255);
+         colors.highlightedColor = new Color32(100, 200, 100, 255);
+         button.GetComponent<Image>().color = new Color32(112, 200, 94, 255);
          button.colors = colors;
      }
 
