@@ -16,7 +16,7 @@ public class ButtonCollorChange : MonoBehaviour{
 
   void TaskOnClick(){
       if (clicked) {
-        TurnRed();
+        TurnGreen();
         clicked = false;
       }else{
         TurnWhite();
@@ -25,7 +25,7 @@ public class ButtonCollorChange : MonoBehaviour{
 
 	}
 
-  public void TurnRed()
+  public void TurnGreen()
      {
          ColorBlock colors = button.colors;
          colors.normalColor = new Color32(112, 184, 94, 255);
