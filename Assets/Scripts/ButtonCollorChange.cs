@@ -39,7 +39,7 @@ public class ButtonCollorChange : MonoBehaviour{
          ColorBlock colors = button.colors;
          colors.normalColor = Color.white;
          colors.highlightedColor = new Color32(225, 225, 225, 255);
-         button.GetComponent<Image>().color = Color.white;
+         button.GetComponent<Image>().color = new Color32(225, 225, 225, 255);
          button.colors = colors;
      }
 

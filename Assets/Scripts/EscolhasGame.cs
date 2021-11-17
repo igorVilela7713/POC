@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ClickGame : MonoBehaviour{
+public class EscolhasGame : MonoBehaviour{
 
     public List<ButtonCollorChange> buttons = new List<ButtonCollorChange>();
     public Button button;
-    private int count = 0;
 
-    public Canvas material;
-    public Canvas escolhas;
+    public Button continuar;
+    ButtonCollorChange button1;
+    private bool clicked = true;
+    private int count = 0;
 
     void Start(){
 
@@ -19,22 +20,29 @@ public class ClickGame : MonoBehaviour{
     void Update(){
 
       foreach (ButtonCollorChange btn in buttons) {
-        if (!btn.isClieck() && btn.required) {
-          count++;
+        if (!btn.isClieck()) {
+            button1 = btn;
+            count++;
         }
       }
-      if (count >= 8) {
+      if (count == 1) {
         button.gameObject.SetActive(true);
       }else{
         button.gameObject.SetActive(false);
       }
       count= 0;
 
-    }
+      //Debug.Log(count);
 
+    }
 
     public void OnClick(){
-      material.gameObject.SetActive(false);
-      escolhas.gameObject.SetActive(true);
-    }
+        button1.gameObject.SetActive(false);
+        buttons.Remove(button1);
+        button.gameObject.SetActive(false);
+        continuar.gameObject.SetActive(true);
+	}
+
 }
+
+
