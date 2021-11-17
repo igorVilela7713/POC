@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Enfermaria.unity
     guid: 7d0908802efe91f46ab7482268a55995
+  - enabled: 1
+    path: Assets/Scenes/trocaAcesso.unity
+    guid: 7e0612f65816aec47b8d7e7316b372a5
+  - enabled: 1
+    path: Assets/Scenes/ClickGame.unity
+    guid: 125d9bc9435b625408de9a5dc41ae14f
   m_configObjects: {}
