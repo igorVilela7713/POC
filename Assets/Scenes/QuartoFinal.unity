@@ -2559,11 +2559,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1158729888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e208ee0d6f4a5b04e84c55c7ce0ac09c, type: 3}
+  m_Script: {fileID: 11500000, guid: 671e5d18b1b6b3840960275a55572ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pic: {fileID: 21300000, guid: e1c8c0d3723972547b9ffcc7c73bb11d, type: 3}
-  imageHolder: {fileID: 701273691}
+  sceneToLoad: 2
 --- !u!136 &1158729892
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2578,6 +2577,20 @@ CapsuleCollider:
   m_Height: 0.012833923
   m_Direction: 1
   m_Center: {x: -0.00011924033, y: 0.0035830215, z: -0.0005328853}
+--- !u!114 &1158729893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158729888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e208ee0d6f4a5b04e84c55c7ce0ac09c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pic: {fileID: 21300000, guid: e1c8c0d3723972547b9ffcc7c73bb11d, type: 3}
+  imageHolder: {fileID: 701273691}
 --- !u!1 &1194551447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2826,7 +2839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1274321189
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3984,7 +3997,7 @@ MonoBehaviour:
   cameraPosition: {fileID: 0}
   reachableNodes: []
   cursorArrow: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}
-  cursorInteract: {fileID: 2800000, guid: fe2443101ded6f544b32f8dc8690c367, type: 3}
+  cursorInteract: {fileID: 2800000, guid: 8ea795c067613354898068091ffc7130, type: 3}
   col: {fileID: 0}
   loc: {fileID: 470936114}
 --- !u!114 &1975232757
@@ -4001,7 +4014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myString: Ir para a Enfermaria
   myText: {fileID: 572224968}
-  fadeTime: 0
+  fadeTime: 10
   displayInfo: 0
 --- !u!1 &1988105799 stripped
 GameObject:
