@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ClickGame.unity
     guid: 125d9bc9435b625408de9a5dc41ae14f
+  - enabled: 1
+    path: Assets/Scenes/QuartoFinal.unity
+    guid: 40e4eaa453cf9dd4a9e3be6cfdd40238
+  - enabled: 1
+    path: Assets/Scenes/Enfermaria_Final.unity
+    guid: 27eb78490f9d74948946bbfbf99b0aee
   m_configObjects: {}
